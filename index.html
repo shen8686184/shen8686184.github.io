@@ -109,7 +109,7 @@
 </code></pre><p>开启hexo服务</p>
 <pre><code>$ hexo s  
 </code></pre><p>然后在浏览器输入<a href="http://localhost:4000" target="_blank" rel="external">http://localhost:4000</a>  就可以预览博客页面了，hexo默认添加了一篇博客hello world</p>
-<p><img src="/Users/guoliyuan/MyGit/Blog/source/asset/hexo_local4000.png" alt="MacDown Screenshot"></p>
+<p><img src="../asset/hexo_local4000.png" alt="MacDown Screenshot"></p>
 </li>
 </ol>
 <ol>
@@ -117,20 +117,21 @@
 <ul>
 <li>为github添加ssh key 具体步骤百度即可</li>
 <li>创建仓库<br>登录github 创建public仓库 要求仓库名必须为 账户名.github.io </li>
-<li>cd 到blog文件夹，找到_config.yml文件然后用vim打开进行修改如下<br><img src="/Users/guoliyuan/MyGit/Blog/source/asset/hexodeploy_github.png" alt="MacDown Screenshot">  </li>
+<li>cd 到blog文件夹，找到_config.yml文件然后用vim打开进行修改如下<br><img src="../asset/hexodeploy_github.png" alt="MacDown Screenshot">  </li>
 <li><p>最后就是生成静态页面和发布了 流程为</p>
-<pre><code>$ hexo n firstBlog //创建名为firstBlog的博客   
+<pre><code>$ hexo n firstBlog //创建名为firstBlog的  
 $ hexo g //生成静态页  
 $ hexo d //部署到gighub pages  
-</code></pre><p>后边最后两条命令可以合为一条 </p>
-<p>   $ hexo d -g        </p>
-<p>这时候就可以在浏览器查看firstBlog了 在浏览器打<a href="http://用户名.github.io即可，网速慢的话可能要等1两分钟生效。同样也可以在本地预览" target="_blank" rel="external">http://用户名.github.io即可，网速慢的话可能要等1两分钟生效。同样也可以在本地预览</a> $ hexo s 启动 然后浏览器输入<a href="http://localhost:4000" target="_blank" rel="external">http://localhost:4000</a></p>
+</code></pre><p>  后边两条命令可以合为一条 </p>
+<pre><code>$ hexo d -g        
+</code></pre><p>  这时候就可以在浏览器查看firstBlog了 在浏览器打<a href="http://用户名.github.io即可，网速慢的话可能要等1两分钟生效。同样也可以在本地预览" target="_blank" rel="external">http://用户名.github.io即可，网速慢的话可能要等1两分钟生效。同样也可以在本地预览</a> $ hexo s 启动 然后浏览器输入<a href="http://localhost:4000" target="_blank" rel="external">http://localhost:4000</a></p>
 </li>
 </ul>
 </li>
 </ol>
-<p>  注意：如果hexo d 报错无法连接git，执行  </p>
-<pre><code>$ npm install hexo-deployer-git --save a // 安装hexo-deployer-git
+<pre><code>注意：如果hexo d 报错无法连接git，执行  
+
+        $ npm install hexo-deployer-git --save a // 安装hexo-deployer-git
 </code></pre><p>  然后再</p>
 <pre><code>$ hexo d -g 
 </code></pre><ol>
@@ -143,16 +144,16 @@ $ hexo d //部署到gighub pages
 $ hexo d -g  
 </code></pre></li>
 <li><p>到阿里云自己的域名下做域名解析,</p>
-<p><img src="/Users/guoliyuan/MyGit/Blog/source/asset/hexoDomain_set.png" alt="MacDown Screenshot"> 登上个几分钟 最多不会超过12小时 就可已用过域名访问自己的博客了。</p>
 </li>
 </ul>
+<p><img src="../asset/hexoDomain_set.png" alt="MacDown Screenshot"> 登上个几分钟 最多不会超过12小时 就可已用过域名访问自己的博客了。</p>
 </li>
 </ol>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/01/04/github-hexo搭建个人博客/" data-id="cixippzi80000sb9k3vzac3q7" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2017/01/04/github-hexo搭建个人博客/" data-id="cixiua0zq0000rb9kagurmxhi" class="article-share-link">Share</a>
       
       
     </footer>
@@ -197,7 +198,7 @@ $ hexo d -g
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2016/12/30/hello-world/" data-id="cixippzid0001sb9kj4hadxfb" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2016/12/30/hello-world/" data-id="cixiua0zw0001rb9kx1q6ea2e" class="article-share-link">Share</a>
       
       
     </footer>
